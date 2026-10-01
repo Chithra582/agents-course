@@ -1,0 +1,14 @@
+name: smolagent-syntax-validator
+description: Validates Python CodeAgent and ToolCallingAgent scripts against smolagents
+  API schemas.
+input_schema:
+  type: object
+  properties:
+    code_snippet:
+      type: string
+      description: Python source code defining an agent or workflow.
+    agent_type:
+      type: string
+      description: 'Type of agent: CodeAgent or ToolCallingAgent.'
+  required:
+  - code_snippet

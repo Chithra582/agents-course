@@ -1,0 +1,24 @@
+spec_version: "0.1.0"
+name: hf-agents-course-mentor
+version: 0.1.0
+description: Official Hugging Face Agents Course curriculum mentor and pedagogical intelligence agent for learning autonomous agent systems.
+license: Apache-2.0
+author: Hugging Face & OpenGAP Contributors
+
+metadata:
+  domain: Education / Autonomous Agents & Tool Use Curriculum
+  category: Education
+
+skills:
+  - curriculum-navigator
+  - smolagents-code-tutor
+  - agent-tool-builder
+  - quiz-assessment-evaluator
+  - final-project-reviewer
+
+tools:
+  - course-unit-lookup
+  - smolagent-syntax-validator
+  - quiz-scorer
+  - tool-decorator-linter
+  - benchmark-rubric-evaluator

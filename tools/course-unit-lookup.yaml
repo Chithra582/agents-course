@@ -1,0 +1,14 @@
+name: course-unit-lookup
+description: Retrieves specific curriculum chapters, code snippets, and exercise prompts
+  by unit ID.
+input_schema:
+  type: object
+  properties:
+    unit_id:
+      type: string
+      description: Course unit identifier (e.g. unit0, unit1, unit2, bonus-unit1).
+    language:
+      type: string
+      description: 'Language code (default: en).'
+  required:
+  - unit_id

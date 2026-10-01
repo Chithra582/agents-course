@@ -1,0 +1,11 @@
+name: tool-decorator-linter
+description: Inspects Python function signatures and docstrings for Hugging Face @tool
+  compliance.
+input_schema:
+  type: object
+  properties:
+    function_code:
+      type: string
+      description: Python source code of the decorated tool function.
+  required:
+  - function_code

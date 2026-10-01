@@ -1,0 +1,13 @@
+name: benchmark-rubric-evaluator
+description: Evaluates capstone agent solutions against course rubrics and test suites.
+input_schema:
+  type: object
+  properties:
+    project_repo_url:
+      type: string
+      description: URL to the student's capstone repository or Hugging Face Space.
+    benchmark_name:
+      type: string
+      description: Benchmark to score against (e.g. gaia, internal_eval).
+  required:
+  - project_repo_url

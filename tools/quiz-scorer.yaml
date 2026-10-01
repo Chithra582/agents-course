@@ -1,0 +1,14 @@
+name: quiz-scorer
+description: Scores student answers to unit quizzes and generates pedagogical feedback.
+input_schema:
+  type: object
+  properties:
+    unit_id:
+      type: string
+      description: The unit ID of the quiz being taken.
+    student_answers:
+      type: object
+      description: Key-value mapping of question IDs to student selected answers.
+  required:
+  - unit_id
+  - student_answers
