@@ -1,5 +1,5 @@
 spec_version: "0.1.0"
-name: hf-agents-course-mentor
+name: agents-course
 version: 0.1.0
 description: Official Hugging Face Agents Course curriculum mentor and pedagogical intelligence agent for learning autonomous agent systems.
 license: Apache-2.0
